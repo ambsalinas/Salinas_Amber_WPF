@@ -1,1 +1,4 @@
-alert("This is in the js file.");
+//Expressions 
+var remainder = 32 % 2;
+
+console.log(remainder);
