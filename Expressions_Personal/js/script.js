@@ -4,6 +4,8 @@ alert("Find the square feet of carpet required to carpet the basement floor, as 
 
 alert("The basement is an irregular polygon, so we must divide it into two different rectangles, find the area of each, and add those numbers together."); // The instructions
 
+const carpetPrice = 2.50; // the price of the carpet being used is a constant because it never changes, therefore we don't need any input from the user.
+
 var length1 = prompt("What is the length of the first rectangle?"); // finding the length of the larger rectangle
 console.log("The length of the first rectangle is " + length1 + " feet."); // printing the user's input to the console
 
@@ -26,5 +28,8 @@ console.log("The area of the second rectangle is " + area2 + "ft squared."); // 
 
 var carpet = area1 + area2; // finding the total carpet needed to cover the basement by adding the areas of the two rectangles together.
 console.log("The total area of the basement is " + carpet + "ft squared."); // printing total area to console.
+
+var totalPrice = (area1 + area2) * carpetPrice; // calculating the total price by taking the total area and multipying it by the price-per-square-foot of the carpet.
+console.log("The total price for the carpet at $2.50 per square foot is $" + totalPrice + "."); // printing the total price to the console.
 
 alert("You will need " + carpet + " square feet of carpet to cover the basement floor."); // creating an alert to inform the user of the final result of total carpet needed.
