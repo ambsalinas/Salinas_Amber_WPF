@@ -25,3 +25,6 @@ var area2 = length2 * height2; // finding the area of the second rectangle by mu
 console.log("The area of the second rectangle is " + area2 + "ft squared."); // printing results to the console
 
 var carpet = area1 + area2; // finding the total carpet needed to cover the basement by adding the areas of the two rectangles together.
+console.log("The total area of the basement is " + carpet + "ft squared."); // printing total area to the console
+
+alert("You will need " + carpet + " square feet of carpet to cover the basement floor."); // creating an alert to inform the user of the final result of total carpet needed.
