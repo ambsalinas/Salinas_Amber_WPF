@@ -1,6 +1,6 @@
 // Amber Salinas -- 14 Aug 2014 -- Expressions (Personal)
 
-alert("Find the square feet of carpet required to carpet the basement floor."); // The task
+alert("Find the square feet of carpet required to carpet the basement floor, as well as how much it will cost to carpet the basement at $2.50 per square foot."); // The task
 
 alert("The basement is an irregular polygon, so we must divide it into two different rectangles, find the area of each, and add those numbers together."); // The instructions
 
@@ -25,6 +25,6 @@ var area2 = length2 * height2; // finding the area of the second rectangle by mu
 console.log("The area of the second rectangle is " + area2 + "ft squared."); // printing results to the console
 
 var carpet = area1 + area2; // finding the total carpet needed to cover the basement by adding the areas of the two rectangles together.
-console.log("The total area of the basement is " + carpet + "ft squared."); // printing total area to the console
+console.log("The total area of the basement is " + carpet + "ft squared."); // printing total area to console.
 
 alert("You will need " + carpet + " square feet of carpet to cover the basement floor."); // creating an alert to inform the user of the final result of total carpet needed.
