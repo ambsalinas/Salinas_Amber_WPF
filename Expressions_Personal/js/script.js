@@ -32,4 +32,4 @@ console.log("The total area of the basement is " + carpet + "ft squared."); // p
 var totalPrice = (area1 + area2) * carpetPrice; // calculating the total price by taking the total area and multipying it by the price-per-square-foot of the carpet.
 console.log("The total price for the carpet at $2.50 per square foot is $" + totalPrice + "."); // printing the total price to the console.
 
-alert("You will need " + carpet + " square feet of carpet to cover the basement floor."); // creating an alert to inform the user of the final result of total carpet needed.
+alert("You will need " + carpet + " square feet of carpet to cover the basement floor. \nThe total cost for the carpet needed for this project is $" + totalPrice + "."); // creating an alert to inform the user of the final result of total carpet needed, as well as how much it will cost. The cost is written on a new line.
