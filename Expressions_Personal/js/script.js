@@ -23,3 +23,5 @@ console.log("The height of the second rectangle is " + height2 + " feet."); // p
 
 var area2 = length2 * height2; // finding the area of the second rectangle by multiplying its length and height
 console.log("The area of the second rectangle is " + area2 + "ft squared."); // printing results to the console
+
+var carpet = area1 + area2; // finding the total carpet needed to cover the basement by adding the areas of the two rectangles together.
