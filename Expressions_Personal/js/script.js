@@ -15,5 +15,8 @@ var area1 = length1 * height1; // finding the area of the larger rectangle by mu
 // printing the result of area1 to the console.
 console.log("The area of the first rectangle is " + area1 + "ft squared."); 
 
-var length2 = prompt ("What is the length of the second rectangle?"); // finding the length of the smaller triangle
+var length2 = prompt ("What is the length of the second rectangle?"); // finding the length of the smaller rectangle
 console.log("The length of the second rectangle is " + length2 + " feet."); // printing the user's input to the console
+
+var height2 = prompt("What is the height of the second rectangle?"); // finding the height of the smaller rectangle
+console.log("The height of the second rectangle is " + height2 + " feet."); // printing the user's input to the console
