@@ -12,4 +12,4 @@ console.log("The height of the first rectangle is " + height1 + " feet."); // pr
 
 var area1 = length1 * height1; // finding the area of the larger rectangle by multiplying length by height. 
 // printing the result of area1 to the console.
-console/log("The area of the first rectangle is " + area1 + "ft squared."); 
+console.log("The area of the first rectangle is " + area1 + "ft squared."); 
