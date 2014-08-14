@@ -5,3 +5,5 @@ alert("Find the square feet of carpet required to carpet the basement floor."); 
 alert("The basement is an irregular polygon, so we must divide it into two different rectangles, find the area of each, and add those numbers together."); // The instructions
 
 var length1 = prompt("What is the length of the larger rectangle?"); 
+
+console.log("The length of the first rectangle is " + length1 + " feet."); 
