@@ -9,3 +9,5 @@ console.log("Weight: " + weight + "lbs."); // print the result to the console.
 
 var height = prompt("What is your height in inches?"); // obtain user's height in inches
 console.log("Height: " + height + "in.");
+
+// to calculate BMI, we must divid weight by height^2, and then multiply that by a conversion factor of 703.
