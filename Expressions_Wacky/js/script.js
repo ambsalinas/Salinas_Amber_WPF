@@ -15,3 +15,12 @@ var activeNeedsMale = basicNeedsMale * (activity *.01);
 var activeNeedsFemale = basicNeedsFemale * (activity *.01); // find active caloric needs for men and women. multiply activity by .01 to get the percentage.
 
 console.log("Your additional caloric needs with your level of physical activity are " + activeNeedsMale + " calories if you are male, and " + activeNeedsFemale + " calories if you are female."); 
+
+const food = .10; // constant for digesting food
+var foodNeedsMale = (basicNeedsMale + activeNeedsMale) * food; 
+var foodNeedsFemale = (basicNeedsFemale + activeNeedsFemale) * food; // calculate the calories needed to digest food by adding basic and active needs, then multiplying that by 10%.
+
+console.log("You require " + foodNeedsMale + " calories to digest food if you are male, and " + foodNeedsFemale + " calories to digest food if you are female."); // print the result to the console.
+
+var basalCaloricNeedsMale = [basicNeedsMale, activeNeedsMale, foodNeedsMale]; 
+var basalCaloricNeedsFemale = [basicNeedsFemale, activeNeedsFemale, foodNeedsFemale]; // create an array for the results so far.
