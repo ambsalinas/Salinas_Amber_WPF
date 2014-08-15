@@ -22,5 +22,13 @@ var foodNeedsFemale = (basicNeedsFemale + activeNeedsFemale) * food; // calculat
 
 console.log("You require " + foodNeedsMale + " calories to digest food if you are male, and " + foodNeedsFemale + " calories to digest food if you are female."); // print the result to the console.
 
-var basalCaloricNeedsMale = [basicNeedsMale, activeNeedsMale, foodNeedsMale]; 
-var basalCaloricNeedsFemale = [basicNeedsFemale, activeNeedsFemale, foodNeedsFemale]; // create an array for the results so far.
+var resultsMale = [basicNeedsMale, activeNeedsMale, foodNeedsMale]; 
+var resultsFemale = [basicNeedsFemale, activeNeedsFemale, foodNeedsFemale]; // create an array for males and females containing the results so far.
+
+var basalCaloricNeedsMale = resultsMale[0] + resultsMale[1] + resultsMale[2]; 
+var basalCaloricNeedsFemale = resultsFemale[0] + resultsFemale[1] + resultsFemale[2]; // created a variable adding results from each array to come up with the basal caloric needs for male and female. 
+
+console.log("Basal Caloric Needs if Male: " + basalCaloricNeedsMale); 
+console.log("Basal Caloric Needs if Female " + basalCaloricNeedsFemale); // print the results to the console
+
+alert("If you are male, your basal caloric needs are " + basalCaloricNeedsMale + " calories each day. If you are female, your basal caloric needs are " + basalCaloricNeedsFemale + " calories each day. \nTo gain weight, increase your calorie count beyond this number. To lose weight, take in less than your total calorie needs."); // alert the user to the results
