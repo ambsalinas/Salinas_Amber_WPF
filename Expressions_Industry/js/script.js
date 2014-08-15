@@ -6,3 +6,6 @@ alert("Calculate your Body Mass Index."); // create an alert for what the user i
 
 var weight = prompt("What is your weight in pounds?"); // obtain user's weight in pounds
 console.log("Weight: " + weight + "lbs."); // print the result to the console.
+
+var height = prompt("What is your height in inches?"); // obtain user's height in inches
+console.log("Height: " + height + "in.");
