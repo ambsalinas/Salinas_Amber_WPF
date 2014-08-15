@@ -19,4 +19,4 @@ const conversion = 703; // create a constant for the conversion factor, since th
 var bmi = (weight / heightSquared) * conversion;
 console.log("Your Body Mass Index is " + bmi + "."); // print to the console
 
-alert("Your Body Mass Index is " + bmi + ". /nThe acceptable range for the military is between 19 and 25."); // create an alert to tell the user what their BMI is, and what the military's acceptable range is.
+alert("Your Body Mass Index is " + bmi + ". \nThe acceptable range for the military is between 19 and 25."); // create an alert to tell the user what their BMI is, and what the military's acceptable range is.
