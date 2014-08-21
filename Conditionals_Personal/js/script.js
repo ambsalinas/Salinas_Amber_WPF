@@ -4,7 +4,7 @@
 
 var totalCost = prompt("What is the total cost to carpet the basement?"); // prompt the user to determine what their total cost is.
 
-if (totalCost = ""){
+if (totalCost == ""){
 	console.log("We need the total before we can go any further!"); // make sure the user input something!
 }else{
 	var budget = prompt("What is your budget for this month?");
