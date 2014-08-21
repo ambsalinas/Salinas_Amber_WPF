@@ -1,7 +1,9 @@
-// Prompt and Alert
+var gpa = 48; 
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width.");
-var height = prompt("Please enter the height.");
-var area = width * height; 
-// console.log(area);
-alert("The area of your rectangle is " + area + "."); 
+/*if( gpa > 2.0){
+	console.log("You can graduate!"); 
+}else{
+	console.log("GPA is too low!");
+}*/
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
