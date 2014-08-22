@@ -2,10 +2,10 @@
 
 // Check to see if you have the budget available to afford the total cost of the basement project calculated in the first script. 
 
-var totalCost = parseInt (prompt("What is the total cost to carpet the basement?")); // prompt the user to determine what their total cost is.
+var totalCost = prompt("What is the total cost to carpet the basement?"); // prompt the user to determine what their total cost is.
 
 if (totalCost == ""){
-	var totalCost = parseInt (prompt("We need the total before we can go any further!")); // make sure the user inputs something!
+	var totalCost = prompt("We need the total before we can go any further!"); // make sure the user inputs something!
 }else{
 	console.log("You entered $" + totalCost + ".");
 }
@@ -14,10 +14,10 @@ var budget = prompt("What is your budget for this month?"); // once the user has
 console.log("You have $" + budget + " to spend this month, and the basement will cost $" + totalCost + " to complete."); // print their budget to the console
 
 // Now let's see if the user has any savings to add to their budget. 
-var savings = parseInt (prompt("How much money do you have saved?")); 
+var savings = prompt("How much money do you have saved?"); 
 
 if (savings == ""){
-	var savings = parseInt (prompt("We need to know how much money you have saved before we can go any further!")); // let's validate that the user has input a value for savings, as this is vital to finishing the script.
+	var savings = prompt("We need to know how much money you have saved before we can go any further!"); // let's validate that the user has input a value for savings, as this is vital to finishing the script.
 }else{
 	console.log("You entered $" + savings + "."); 
 }
