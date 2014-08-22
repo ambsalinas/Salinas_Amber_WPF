@@ -19,3 +19,11 @@ if(suScore == ""){
 }else {
 	console.log("Situps: " + suScore + "%"); 
 }
+
+var runScore = prompt("What is your run percentage?"); // find the user's run percentage
+
+if(runScore == ""){
+	var runScore = prompt("Please enter your run score!"); // validate that the user has input a run score
+}else{
+	console.log("Run: " + runScore + "%"); 
+}
