@@ -1,4 +1,4 @@
-// Amber Salinas -- 14 Aug 2014 -- Expressions (Personal)
+// Amber Salinas -- 21 Aug 2014 -- Conditionals (Personal)
 
 alert("Find the square feet of carpet required to carpet the basement floor, as well as how much it will cost to carpet the basement at $2.50 per square foot."); // The task
 

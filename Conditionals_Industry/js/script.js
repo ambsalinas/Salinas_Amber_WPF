@@ -1,4 +1,4 @@
-// Amber Salinas -- 14 August 2014 -- Expressions (Industry)
+// Amber Salinas -- 21 August 2014 -- Conditionals (Industry)
 
 // A simple script to determine whether you meet the minimum requirements to pass the Army Physical Fitness Test. The "maximum" score is a 300 (100% in each event), though you can score on an extended scale if you exceed 100% in each event.
 
