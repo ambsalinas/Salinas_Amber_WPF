@@ -50,5 +50,10 @@ if(runScore < 60){
 	console.log("You have passed your run!"); 
 }
 
+// create a variable to check for the user's total score
+var totalScore = parseInt (puScore) + parseInt (suScore) + parseInt (runScore); 
+console.log("Your total score is " + totalScore + "!"); // print the result to the console
 
+// now let's use a ternary operator to determine whether the user has scored on the extended scale. 
+(totalScore > 300) ? console.log("Congratulations, you scored on the extended scale!") : console.log("You have not scored on the extended scale.")
 
