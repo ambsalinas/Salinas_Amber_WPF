@@ -23,6 +23,7 @@ if (savings == ""){
 }
 
 var totalBudget = savings + budget; // create a variable that takes the sum of your savings and budget to create a total budget available.
+console.log("You have a total of $" + totalBudget + " to spend on this project."); // make sure the variable is being processed correctly by displaying the result. 
 
 // Now we will create a code that will determine several things and react accordingly:
 if (totalCost > totalBudget){
