@@ -10,3 +10,9 @@ const a = 9.8; // the constant for gravity
 var timeGrav = .5 * a; // part one of the equation.  
 var gravTime = time * time; // part two
 var distance = timeGrav * gravTime; // final total
+
+console.log("You will fall " + distance + "ft in " + time + " seconds."); 
+
+// a fun calculation to see when the fall will be fatal. 
+
+(distance > 50) ? alert("Survival isn't likely") : alert("You'd survive that for sure!")
