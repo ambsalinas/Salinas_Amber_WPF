@@ -11,3 +11,11 @@ if (puScore == ""){
 }else {
 	console.log("Pushups: " + puScore + "%");
 }
+
+var suScore = prompt("What is your percentage score of situps?"); // asking for the user's situp percentage
+
+if(suScore == ""){
+	var suScore = prompt("Please enter your situp score!"); // we need the user's situp score to finish the script
+}else {
+	console.log("Situps: " + suScore + "%"); 
+}
