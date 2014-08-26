@@ -1,9 +1,13 @@
-var gpa = 48; 
+// anonymous function
+var functionName = function(){
+	// code to run
+}
 
-/*if( gpa > 2.0){
-	console.log("You can graduate!"); 
-}else{
-	console.log("GPA is too low!");
-}*/
+var calcArea = function(width, height){
+	var area = width * height; 
+	return area;
+}
 
-(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+var a = calcArea(20, 30);
+
+console.log(a);
