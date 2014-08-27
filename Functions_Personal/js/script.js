@@ -20,3 +20,4 @@ else {
 	compChoice = "Scissors"; // anything greater than .66 will be "scissors" 
 }
 
+console.log("You chose " + myChoice + ", and the computer chose " + compChoice + "!"); // printing both of the choices to the console to make sure everything works so far. 
