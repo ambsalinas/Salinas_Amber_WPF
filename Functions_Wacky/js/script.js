@@ -16,3 +16,8 @@ var days = prompt("Enter number of days."); // prompt the user for the number of
 var minutes = 1440 * days; // multiply number of days by 1440 to figure out the total number of minutes
 var beats = calcDays(minutes, 40); // assign the results of the function to a variable, using the results of minutes and '40' as the standard bpm for the parameters.
 console.log("An athlete's heart will beat " + beats + " times in " + days + " days at 40bpm.");
+
+function calcDays(minutes, bpm){
+    var beats = minutes * bpm; // the code to be executed
+    return beats; // return the result!
+}
