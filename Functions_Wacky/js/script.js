@@ -10,3 +10,6 @@ function calcPerDay(bpm, minutes){ // define the function and its parameters
     var beatsPerDay = bpm * minutes; // the code to be executed
     return beatsPerDay; // return the result!
 }
+// Now let's figure out how many times an athlete's heart might beat in x number of days (input by user).
+
+var days = prompt("Enter number of days."); // prompt the user for the number of days they'd like to use
