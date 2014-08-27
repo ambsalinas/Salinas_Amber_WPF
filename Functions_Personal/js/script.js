@@ -9,3 +9,14 @@ var myChoice = prompt("Rock, Paper, or Scissors?"); // here we make a prompt for
 var compChoice = Math.random(); // we create a variable for the computer to pick a random number. 
 
 // According to w3schools, the random number will be between 0 and 1. I need to create if/else if/else statements that will define what results in rock, paper, and scissors.
+
+if (compChoice <= 0.33) { // to keep the chances as even as possible, I broke it up into thirds. Less than or equal to .33 is "Rock"
+	compChoice = "Rock";
+}
+else if (compChoice <= 0.66) { // less than or equal to .66 is "paper" 
+	compChoice = "Paper"; 
+}
+else { 
+	compChoice = "Scissors"; // anything greater than .66 will be "scissors" 
+}
+
