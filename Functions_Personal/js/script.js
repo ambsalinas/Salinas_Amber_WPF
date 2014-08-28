@@ -23,8 +23,7 @@ else {
 console.log("You chose " + myChoice + ", and the computer chose " + compChoice + "!"); // printing both of the choices to the console to make sure everything works so far. 
 
 // Now for the tricky part; I need to tell the computer that paper wins over rock, scissors wins over paper, and rock wins over scissors, and also that if the choices are the same, the user and the computer tie. I know I can use a FUNCTION to compare the choices. 
-
-compare(myChoice, compChoice); // this is what I need to compare. I need to get this inside of a function. 
+ 
 
 // The easy part is telling the computer that the results are tied
 var compare = function(choice1, choice2) {
@@ -47,4 +46,15 @@ var compare = function(choice1, choice2) {
 			return "Yay, you win!"; 
 		}
 	}
+	else if (choice1 === "Scissors") { // repeat the steps one final time for "Scissors." We've now included all of the possible results!
+		if (choice2 === "Rock") {
+			return "Aww, you lose!"; 
+		}
+		else {
+			return "Yay, you win!"; 
+		}
+	}		
 } // Closing the final bracket gets rid of the syntax error, so I know it was nothing to do with nesting the else ifs. 
+
+// Now to see if this actually works. 
+compare(myChoice, compChoice); // tell the computer what parameters to compare. I need to include this AFTER the function, because it's an anonymous function. 
