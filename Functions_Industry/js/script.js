@@ -3,3 +3,6 @@
 // Every 6 months my Unit holds a firing range so that all Soldiers can qualify with their weapons. There is a lot of planning that goes into a range, and one of the most important factors to consider is how much ammunition will be needed to ensure that there is enough for everyone. Here is a script that could help the Range Noncommissioned-Officer In Charge (NCOIC) determine how much ammo is needed.
 
 var soldiers = prompt("How many Soldiers will be attending the range?"); // prompt the NCOIC to determine how many total Soldiers will be firing
+
+var zero = 18; // this is how many rounds an individual needs to "zero" their weapon (making sure the sights are properly aligned)
+var qual = 40; // this is the number of rounds needed for qualification
