@@ -25,3 +25,10 @@ console.log("You chose " + myChoice + ", and the computer chose " + compChoice +
 // Now for the tricky part; I need to tell the computer that paper wins over rock, scissors wins over paper, and rock wins over scissors, and also that if the choices are the same, the user and the computer tie. I know I can use a FUNCTION to compare the choices. 
 
 compare(myChoice, compChoice); // this is what I need to compare. I need to get this inside of a function. 
+
+// The easy part is telling the computer that the results are tied
+var compare = function(choice1, choice2) {
+	if (choice1 === choice2) {
+		return "You've tied!"; 
+	}
+}
