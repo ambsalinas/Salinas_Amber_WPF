@@ -15,3 +15,7 @@ function calcAmmo(s, z, q){ // define the function and show that it needs three 
 var totalAmmo = calcAmmo(soldiers, zero, qual); // defining the variable for the results of the function, as well as telling the computer what parameters to use within the function
 
 console.log("You will need a total ammuntion count of " + totalAmmo + " to meet the needs of the upcoming range.");
+
+// A standard 3 Range Safeties are needed regardless of how many people attend, but if there are more than 20 Soldiers firing, there needs to be additional Safeties depending on how many more Soldiers there are.
+
+(soldiers > 20) ? alert("You need more than 3 Range Safeties!") : alert("3 Range Safeties will be enough!")
