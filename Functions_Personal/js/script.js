@@ -57,4 +57,6 @@ var compare = function(choice1, choice2) {
 } // Closing the final bracket gets rid of the syntax error, so I know it was nothing to do with nesting the else ifs. 
 
 // Now to see if this actually works. 
-compare(myChoice, compChoice); // tell the computer what parameters to compare. I need to include this AFTER the function, because it's an anonymous function. 
+
+var results = compare(myChoice, compChoice); // tell the computer what parameters to compare. I need to include this AFTER the function, because it's an anonymous function. 
+console.log(results);
