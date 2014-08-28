@@ -30,7 +30,7 @@ var compare = function(choice1, choice2) {
 	if (choice1 === choice2) {
 		return "You've tied!"; // instead of returning a value like in the examples from the screencasts, I want to return a string instead. 
 	}
-	else if (choice1 === "Rock") { // I'm going to try nesting an if/else inside of the else if, because I need to say that if choice1 is rock, the computer can either win by choosing "paper" or lose by choosing "scissors."
+	else if (choice1 === "Rock") { // I'm going to try nesting an if/else inside of the else if, because I need to say that if choice1 is rock, the computer can either win by choosing "paper" or lose by choosing "scissors." 
 		if (choice2 === "Paper") {
 			return "Aww, you lose!"; 
 		}
@@ -59,4 +59,4 @@ var compare = function(choice1, choice2) {
 // Now to see if this actually works. 
 
 var results = compare(myChoice, compChoice); // tell the computer what parameters to compare. I need to include this AFTER the function, because it's an anonymous function. 
-console.log(results);
+console.log(results); // print the results to the console so that the user can see the results, and I can see whether this works properly.
