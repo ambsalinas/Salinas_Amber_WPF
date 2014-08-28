@@ -11,3 +11,5 @@ function calcAmmo(s, z, q){ // define the function and show that it needs three 
     var totalAmmo = s * (z + q); // show that we need to multiply the number of soldiers by the sum of ammo required to zero and qualify.
     return totalAmmo;
 }
+
+var totalAmmo = calcAmmo(soldiers, zero, qual); // defining the variable for the results of the function, as well as telling the computer what parameters to use within the function
