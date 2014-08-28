@@ -31,7 +31,7 @@ var compare = function(choice1, choice2) {
 		return "You've tied!"; // instead of returning a value like in the examples from the screencasts, I want to return a string instead. 
 	}
 	else if (choice1 === "Rock") { // I'm going to try nesting an if/else inside of the else if, because I need to say that if choice1 is rock, the computer can either win by choosing "paper" or lose by choosing "scissors."
-		if (choice2 === "Scissors") {
+		if (choice2 === "Paper") {
 			return "Aww, you lose!"; 
 		}
 		else {
