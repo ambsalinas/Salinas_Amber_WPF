@@ -38,4 +38,13 @@ var compare = function(choice1, choice2) {
 		else {
 			return "Yay, you win!";
 		}
-	
+	}
+	else if (choice1 === "Paper") { // do the same thing for "Paper". So far so good.
+		if (choice2 === "Scissors") {
+			return "Aww, you lose!"; 
+		}
+		else {
+			return "Yay, you win!"; 
+		}
+	}
+} // Closing the final bracket gets rid of the syntax error, so I know it was nothing to do with nesting the else ifs. 
