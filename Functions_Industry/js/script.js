@@ -14,4 +14,4 @@ function calcAmmo(s, z, q){ // define the function and show that it needs three 
 
 var totalAmmo = calcAmmo(soldiers, zero, qual); // defining the variable for the results of the function, as well as telling the computer what parameters to use within the function
 
-var totalAmmo = calcAmmo(soldiers, zero, qual); // defining the variable for the results of the function, as well as telling the computer what parameters to use within the function
+console.log("You will need a total ammuntion count of " + totalAmmo + " to meet the needs of the upcoming range.");
